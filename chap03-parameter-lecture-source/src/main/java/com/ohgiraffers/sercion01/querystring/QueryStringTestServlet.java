@@ -36,7 +36,6 @@ public class QueryStringTestServlet extends HttpServlet {
         System.out.println("national = " + national);
 
         String[] hobbies = req.getParameterValues("hobbies");
-        System.out.println("Arrays.toString(hobbies): " + Arrays.toString(hobbies));
-        System.out.println("hobbies = " + hobbies);
+        System.out.println("Arrays.toString(hobbies) = " + Arrays.toString(hobbies));
     }
 }
